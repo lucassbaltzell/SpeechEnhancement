@@ -21,7 +21,7 @@ function [y] = SpeechEnhance_hybrid(stim,fs,ear,Tfast,Tslow_exp,Fctf,Tslow_cmp,g
 %This compressive gain is similar to the EEQ method described in 
 %Desloge et al (2017) JASA, with corresponding Patent: US20170208399A1
 
-%[y] = SpeechEnhance_hybrid(stim,fs,ear,0.005,0.05,1500,0.5,[0 20])
+%[y] = SpeechEnhance_hybrid(stim,fs,ear,0.004,0.05,1500,0.5,[0 20])
 
 %created by Lucas Baltzell 04/15/21
 
